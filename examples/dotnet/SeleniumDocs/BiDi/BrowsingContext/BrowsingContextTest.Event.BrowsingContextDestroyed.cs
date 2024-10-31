@@ -17,7 +17,7 @@ partial class BrowsingContextTest
 
         TaskCompletionSource<BrowsingContextInfo> tcs = new();
 
-        await bidi.OnContextDestroyedAsync(tcs.SetResult);
+        await bidi.BrowsingContext.OnContextDestroyedAsync(tcs.SetResult);
 
         await context.CloseAsync();
 

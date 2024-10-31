@@ -12,7 +12,7 @@ partial class BrowsingContextTest
     {
         var bidi = await driver.AsBiDiAsync();
 
-        var context = await bidi.CreateContextAsync(ContextType.Tab);
+        var context = await bidi.BrowsingContext.CreateAsync(ContextType.Tab);
 
         await context.CloseAsync();
     }
@@ -22,7 +22,7 @@ partial class BrowsingContextTest
     {
         var bidi = await driver.AsBiDiAsync();
 
-        var context = await bidi.CreateContextAsync(ContextType.Window);
+        var context = await bidi.BrowsingContext.CreateAsync(ContextType.Window);
 
         await context.CloseAsync();
     }
