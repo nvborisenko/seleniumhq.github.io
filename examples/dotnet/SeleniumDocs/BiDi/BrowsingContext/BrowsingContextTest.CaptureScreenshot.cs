@@ -39,8 +39,7 @@ partial class BrowsingContextTest
 
         var element = (await context.LocateNodesAsync(new Locator.Css("#checky")))[0];
 
-        //TODO: ShareId is a type, not string
-        var screenshot = await context.CaptureScreenshotAsync(new() { Clip = new ClipRectangle.Element(new(element.SharedId)) });
+        var screenshot = await context.CaptureScreenshotAsync(new() { Clip = new ClipRectangle.Element(element) });
 
         Assert.IsNotNull(screenshot);
         Assert.IsNotNull(screenshot.Data);
