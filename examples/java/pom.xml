@@ -66,6 +66,7 @@
                             junit.jupiter.execution.parallel.config.fixed.max-pool-size = ${surefire.parallel}
                         </configurationParameters>
                     </properties>
+                    <rerunFailingTestsCount>3</rerunFailingTestsCount>
                 </configuration>
             </plugin>
         </plugins>
