@@ -46,6 +46,14 @@ Links to everything can be found on our [downloads page][downloads].
 
 <br>
 
+### **JavaScript**
+- **Federated Credential Management Support**: Introduced support for Federated Credential Management, enhancing authentication capabilities. ([#15008](https://github.com/SeleniumHQ/selenium/pull/15008))
+- **Node.js Version Specification**: The minimum required Node.js version has been specified as 18.20.5.
+- **Improved Logging**: Added detailed error messages for invalid cookie name validation in `getCookie` and `deleteCookie` methods, aiding in debugging.
+- **Diagnostic Logging for Safari**: Enabled diagnostic logging for Safari, facilitating better issue tracking and resolution.
+
+<br>
+
 ### **.NET**
 - **Nullability Improvements**: Added annotations to `SessionId`, `Alert`, `CookieJar`, `Logs API`, and more ([#14840](https://github.com/SeleniumHQ/selenium/pull/14840), [#14874](https://github.com/SeleniumHQ/selenium/pull/14874)).
 - **Refactored DevTools**: Modernized code style and enhanced JSON parsing ([#14990](https://github.com/SeleniumHQ/selenium/pull/14990)).
