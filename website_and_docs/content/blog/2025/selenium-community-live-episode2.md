@@ -1,7 +1,7 @@
 ---
 title: "Selenium Community Live - Episode 2"
 linkTitle: "Selenium Community Live - Episode 2"
-date: 2025-1-21
+date: 2025-01-21
 tags: ["webinar", "meetup", "talks","community"]
 categories: ["webinar"]
 author: <a href="https://www.linkedin.com/in/pallavimuse/" target="_blank">Pallavi Sharma</a>
