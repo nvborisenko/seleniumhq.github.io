@@ -5,10 +5,6 @@ development:
     - logo: "/images/sponsors/browserstack.png"
       url: "https://www.browserstack.com/automate?utm_campaign=open-source-sponsor&utm_campaigncode=701OW000009sQwVYAU&utm_medium=partnered&utm_source=seleniumorg"
       name: "BrowserStack"
-    # Sponsorship start date: August 23, 2014 - Renewed April 2024 under the "Development" level
-    - logo: "/images/sponsors/saucelabs.png"
-      url: "https://saucelabs.com/resources/topic-hub/selenium?utm_source=selenium&utm_medium=website&utm_campaign=selenium-sponsorship-fy25"
-      name: "Sauce Labs"
     # Sponsorship renewed October 16, 2024. Renewed again on April 8, 2025, under the "Development" level
     - logo: "/images/sponsors/testmu-ai.png"
       url: "https://www.testmuai.com"
@@ -139,6 +135,10 @@ bronze:
     - logo: "/images/sponsors/swiftproxy_logo.png"
       url: "https://www.swiftproxy.net/?ref=selenium"
       name: "Scalable Solutions for Web Data Access"
+    # Sponsorship active: August 03, 2026 - August 04, 2027
+    - logo: "/images/sponsors/BairesDev_Logo_Orange_Dark.svg"
+      url: "https://www.bairesdev.com/"
+      name: "BairesDev – Accelerate Your Roadmap With Our Vetted Nearshore Talent"
     # Sponsorship start date: Mar 20, 2023
     # - logo: "/images/sponsors/kiwiqa-logo.png"
     #   url: "https://www.kiwiqa.com/"
